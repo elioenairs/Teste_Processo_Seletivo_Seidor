@@ -44,7 +44,7 @@ Para uso da aplicação utilizar os seguintes endereços:
 		Observação: alterar a palavra "*PLACA*" pela placa do carro que será excluído.
 
 - Motoristas
-	- Cadastrar um novo morotista (POST)
+	- Cadastrar um novo motorista (POST)
 		
 		localhost:3000/motoristas
 		
@@ -59,6 +59,8 @@ Para uso da aplicação utilizar os seguintes endereços:
 
 - Corpo do body (POST e PUT):
 
+	- Automovel
+	
 	{
 	
 		"placa":"PLACA",
@@ -69,5 +71,14 @@ Para uso da aplicação utilizar os seguintes endereços:
 		
 	}
 
-
 	Observações: alterar as palavras "*PLACA*", "*MARCA*" e "*COR*" pela placa, marca e cor do carro.
+
+	- Motorista
+	
+	{
+	
+	"Nome":"NOME"
+	
+	}
+
+	Observações: alterar a palavra "*NOME*" pelo nome do motorista.
