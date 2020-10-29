@@ -29,7 +29,7 @@ Para uso da aplicação utilizar os seguintes endereços:
 			
 			localhost:3000/automovel/?marca=*MARCA*&cor=*COR*
 			
-			Observações: alterar a palavra "*MARCA*" e "*COR*" pela marca e cor dos carros a serem listados.
+			Observações: alterar as palavras "*MARCA*" e "*COR*" pela marca e cor dos carros a serem listados.
 		
 		- Atualizar um automóvel cadastrado (PUT)
 			
@@ -56,7 +56,7 @@ Para uso da aplicação utilizar os seguintes endereços:
 
 		JSON
 
-	- Corpo do body:
+	- Corpo do body (POST e PUT):
 
 		{
 		
@@ -69,4 +69,4 @@ Para uso da aplicação utilizar os seguintes endereços:
 		}
 
 
-		Observações: alterar a palavra "*PLACA*", "*MARCA*" e "*COR*" pela placa, marca e cor dos carros a serem cadastrados.
+		Observações: alterar as palavras "*PLACA*", "*MARCA*" e "*COR*" pela placa, marca e cor do carro.
