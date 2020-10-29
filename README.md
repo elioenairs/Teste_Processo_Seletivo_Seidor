@@ -59,13 +59,9 @@ Para uso da aplicação utilizar os seguintes endereços:
 - Corpo do body:
 
 	{
-	
-		"placa":"*PLACA*",
-		
-		"marca":"*MARCA*",
-		
-		"cor":"*COR*"
-		
+		"placa":"PLACA",
+		"marca":"MARCA",
+		"cor":"COR"
 	}
 
 
