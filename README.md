@@ -49,3 +49,24 @@ Para uso da aplicação utilizar os seguintes endereços:
 		localhost:3000/motoristas
 		
 		
+- Para cadastramento de veículos deve ser utilizado o seguinte padrão:
+
+- Body:
+	raw
+
+	JSON
+
+- Corpo do body:
+
+	{
+	
+		"placa":"*PLACA*",
+		
+		"marca":"*MARCA*",
+		
+		"cor":"*COR*"
+		
+	}
+
+
+	Observações: alterar a palavra "*PLACA*", "*MARCA*" e "*COR*" pela placa, marca e cor dos carros a serem cadastrados.
